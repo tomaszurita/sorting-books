@@ -1,5 +1,8 @@
 import random
 
+def shuffle(arr):
+    return random.shuffle(arr)
+
 def comparison_function(a, b):
   return a > b
 

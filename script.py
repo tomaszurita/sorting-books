@@ -22,6 +22,9 @@ def by_author_descending(book_a, book_b):
 # Creates a copy of the bookshelf in which the sorting will happen
 bookshelf_copy = bookshelf.copy()
 
+# Sorts the list in random order
+#shuffle = sorts.shuffle(bookshelf_copy)
+
 # Sorts by title A-Z using bubble sort algorithm
 #bubble_sort_by_title_a_z = sorts.bubble_sort(bookshelf_copy, by_title_ascending)
 # Sorts by title A-Z using quicksort algorithm
